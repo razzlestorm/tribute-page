@@ -1,0 +1,59 @@
+/*****************HEADER**************/
+header{
+  margin-top: 5vh;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: 350px;
+}
+
+/*****************MAIN BODY/TIMELINE**************/
+body{
+  background: LightGray;
+}
+
+#tribute-info{
+  display: grid;
+  width: 100%;
+}
+
+#timeline{
+  display: grid;
+  width: 95%;
+  grid-template-rows: repeat(auto-fit);
+  grid-template-columns: repeat(auto-fit);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-self: center;
+  margin-left: 10vw;
+}
+
+ul{
+  list-style: none;
+}
+
+/*****************FOOTER**************/
+
+footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/******TO DO******?
+1. Add Media queries
+2. Make text responsive
+3. Differentiate background between title/image, timeline, and footer
